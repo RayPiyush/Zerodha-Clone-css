@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #eee;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+}
+.header-right{
+    display: flex;
+    cursor: pointer;
+    padding-left: 20px;
+
+}
+.header-right-contain{
+    padding-left: 15px;
+    padding-right: 10px;
+    
+}
+.header-right-contain:hover{
+    background-color: antiquewhite;
+}
+.body-img{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    size: 60%;
+}
+.body-text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 1px;
+}
+h1 {
+    font-size: 2.75rem;
+    line-height: 1.25;
+    font-weight: 18;
+}
+h5{
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.button{
+    padding: 15px 15px 15px 15px;
+    background-color: aqua;
+    cursor: pointer;
+}
+.outer-of-button{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
